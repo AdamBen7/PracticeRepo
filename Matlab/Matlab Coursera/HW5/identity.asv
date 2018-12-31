@@ -1,0 +1,4 @@
+function idmat = identity(n)
+X = zeros(n);
+M(1:n:n*n) = 1;
+idmat = X+M(;

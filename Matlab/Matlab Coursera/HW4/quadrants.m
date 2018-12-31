@@ -1,0 +1,10 @@
+function Q = quadrants(n)
+SmTL = ones(n);
+SmTR = 2*ones(n);
+SmBL = 3*ones(n);
+SmBR = 4*ones(n);
+Q = zeros(2*n);
+Q(1:n, 1:n) = SmTL;
+Q(n+1:2*n, 1:n) = SmBL;
+Q(1:n, n+1:2*n) = SmTR;
+Q(n+1:2*n, n+1:2*n) = SmBR;

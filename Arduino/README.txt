@@ -1,0 +1,1 @@
+Disclaimer: Some of these scripts could cause damage to electronics/hardware. Make sure you know what you're using/modifying.
